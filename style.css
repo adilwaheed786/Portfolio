@@ -189,7 +189,8 @@ h1{
     /* background-color: rgba(22, 179, 158, 0.315); */
    
     /* height: 600px; */
-    min-height:80vh;
+/*     min-height:80vh; */
+	min-height:80vh;
 }
 .about1{
     height: 550px;
