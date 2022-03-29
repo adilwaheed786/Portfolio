@@ -139,12 +139,12 @@ h1{
     color: #b87c44;
     /* color: orangered */
 }
-.profile img{   
+/* .profile img{   
     transition: all 0.4s linear;
 }
 .profile img:hover{
     transform: translateX(50px);
-}
+} */
 .btn-parent{
     padding: 20px;   
 }
