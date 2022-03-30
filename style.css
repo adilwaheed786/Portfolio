@@ -108,6 +108,7 @@ h1{
     object-fit: cover;
     border-radius: 50px;
     border: 2px solid black;
+  
 }
 .resume{
     /* margin-top: 20px; */
@@ -139,11 +140,16 @@ h1{
     color: #b87c44;
     /* color: orangered */
 }
-/* .profile img{   
-    transition: all 0.4s linear;
+.profile img{   
+    /* transition: all 0.4s linear; */
+    transition: all 600ms ;
 }
 .profile img:hover{
-    transform: translateX(50px);
+    /* transform: translateX(50px); */
+    transform: scale(1.1);
+}
+/* img:hover{
+    transform: scale(1.1);
 } */
 .btn-parent{
     padding: 20px;   
@@ -240,9 +246,10 @@ flex-wrap: wrap;
 justify-content: center;
 }
 .container3{
-    padding-top: 50px;
+padding-top: 50px;
 background-color: #1479324b;
 min-height:100vh;
+
 }
 
 .child1 img{
@@ -307,3 +314,35 @@ min-height:100vh;
     left: 0;
 }
 /* Media query */
+/* Section 4 Contact */
+/* .container4{
+    height: 40vh;
+    background-color: #034485;
+} */
+/* Got To Top */
+/* .top{
+    background-color: #b87c44;
+    height: 50px;
+    width: 50px;
+} */
+.top {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: #034485c0;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: all 0.4s linear;
+  }
+  
+  .top:hover {
+    background-color: rgba(255, 68, 0, 0.753);
+    color: white;
+  }
