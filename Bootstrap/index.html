@@ -25,20 +25,34 @@
 <body>
     <!--  Header Section-->
     <header>
-      
-        <nav class="head1">
+        
+        <nav class="head1">    
             <div class="cont">
                 <ul class="child">
-                    <li><a href="#home"><i class="fa-solid fa-house"></i> Home</i></a></li>              
-                    <li><a href="#About"> <i class="fa-solid fa-user-check"></i> About</a></li>
-                    <li><a href="#projects"><i class="fa-solid fa-diagram-project"></i> Projects</a></li>
-                    <li><a href="#contact"><i class="fa-solid fa-phone"></i> Contact</a></li>                
-               </ul>
+                    <a href="#home" class="hide active"><i class="fa-solid fa-house"></i> Home</i></a>
+                    <a href="#About" class="hide"> <i class="fa-solid fa-user-check"></i> About</a>
+                    <a href="#projects"class="hide"><i class="fa-solid fa-diagram-project"></i> Projects</a>
+                    <a href="#contact" class="hide"><i class="fa-solid fa-phone"></i> Contact</a>
+                    <!-- <li class="hide"><a href="#home" class="active"><i class="fa-solid fa-house"></i> Home</i></a></li>              
+                    <li class="hide"><a href="#About"> <i class="fa-solid fa-user-check"></i> About</a></li>
+                    <li class="hide"><a href="#projects"><i class="fa-solid fa-diagram-project"></i> Projects</a></li>
+                    <li class="hide"><a href="#contact"><i class="fa-solid fa-phone"></i> Contact</a></li>                 -->
+                    <li class="show"><a href=""><i class="fa-solid fa-sailboat"></i> Adil Waheed</a></li>
+                    <li id="togle"><a href="javascript:openNav()" ><i  class="fa-solid fa-bars"></i></a></li>
+                </ul>             
             </div>
         </nav>
-    </header>
+        <div id="mySidenav" class="sidenav">
+            <a href="#home" onclick="openNav(); return true;" class="hide "><i class="fa-solid fa-house"></i> Home</i></a>
+            <a href="#About" onclick="openNav(); return true;"  class="hide"> <i class="fa-solid fa-user-check"></i> About</a>
+            <a href="#projects" onclick="openNav(); return true;" class="hide"><i class="fa-solid fa-diagram-project"></i> Projects</a>
+            <a href="#contact" onclick="openNav(); return true;" class="hide"><i class="fa-solid fa-phone"></i> Contact</a>
+          </div>
+          
+    </header>  
     <!-- Body -->
     <main>
+        
         <!-- Cover Page -->
         <section id="home">
             <div class="container-fluid">
@@ -214,26 +228,67 @@
             </div>         
     
         </section>
-        <hr>
+        <!-- <hr> -->
         <!-- Section 4 -->
-        <!-- <section id="contact">
-            <div class="container4">
-                <div class="contact1">
-                    <i class="fa-brands fa-facebook"></i>
+        <section id="contact">
+           <div class="container-fluid">            
+                <div class="resume box proj">
+                    <h2 class="bottom"> <i class="fa-solid fa-phone"></i> Contact </h2>
+                </div>                    
+                <div class="row p-5 d-flex align-items-center justify-content-center">
+                    <div class="col-lg-4 cen p-2">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="auto">
+                            <h4>Location:</h4>
+                            <p class="chng" id="ch1">Karachi,Pakistan</p>
+                        </div>   
+                    </div>
+                    <div class="col-lg-4 cen p-2">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="auto">
+                            <h4>Contact:</h4>
+                            <p class="chng" id="ch2">+92 321 2347886</p>
+                        </div>       
+                    </div>
+                    <div class="col-lg-4 cen p-2">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="auto">
+                            <h4>Email:</h4>
+                            <p class="chng" id="ch3">adilwaheed2222.com@gmail.com</p>
+                        </div>
+                    
+                    </div>
+        
                 </div>
-                <div class="contact2">
-
-                </div>
-                <div class="contact3">
-
-                </div>
-            </div>
-        </section> -->
-        <!-- Go to Top  -->
-        <button onclick="topFunction()" id="Btn" class="top" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
-
-        <!-- <a href="#home" class="top" onclick='dis()'><i class="fa-solid fa-arrow-up"></i></a> -->
+            </div>        
+        </section>   
+        <footer id="footer">
+            <div class="container foot">
+                <h3 id="ft1">Adil Waheed</h3>
+                <p id="ft2">.Net Full Stack Developer</p>
+                
+                    <div class="space">
+                        <a href="https://github.com/adilwaheed786" target="_blank" class="git"> <i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.facebook.com/adil.waheed.144/" target="_blank" class="fb"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/adil-waheed-300205201" target="_blank" class="link"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/adilwaheed8/" target="_blank" class="inst"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                        <h5><b>&copy;</b><i>Copy Right 2022</i></h5>
+            </div>        
+    </footer>
+    <!-- Go to Top  -->
+    <button onclick="topFunction()" id="Btn" class="top"><i class="fa-solid fa-arrow-up"></i></button>
+    <!-- Dark Mode -->
+    <button onclick="darkmode()" id="dark" class="dark"><i class="fa-solid fa-circle-half-stroke"></i></button>
+    <!-- <a href="#home" class="top" onclick='dis()'><i class="fa-solid fa-arrow-up"></i></a> -->  
     </main>
+    
     <script src="style.js"></script>
 </body>
 
