@@ -440,7 +440,8 @@ justify-content: center;
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: #111;
+    /* background-color: #111; */
+    
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -451,21 +452,22 @@ justify-content: center;
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #000000;
+    color: #034485;
     display: block;
     transition: 0.3s;
   }
   
-  .sidenav a:hover{
-    color: #f1f1f1;
-  }
   .show{
     font-family: 'Courier New', Courier, monospace;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: 3px;
-   
   }
-  
+.acti,.sidenav>a:hover{
+    background-color: rgba(255, 68, 0, 0.582);
+    color: white !important;  
+    text-decoration: none;  
+    /* transition: all 1s ease-in-out;  */
+}
   .width10{
     height: 100%;
     width: 100%;
@@ -473,11 +475,12 @@ justify-content: center;
     z-index: 99;
     top: 0;
     left: 0;
-    background-color: rgba(45, 135, 151, 0.418);
+    background-color: rgba(255, 255, 255, 0.774);
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: 0.6s;
     padding-top: 60px;
     text-align:center;
+
   }
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}

@@ -55,9 +55,9 @@ var header = document.getElementById("mySidenav");
 var list = header.getElementsByClassName("hide");
 for (var i = 0; i < list.length; i++) {
   list[i].addEventListener("click", function() {
-  var current = document.getElementsByClassName("active");
-  current[0].className = current[0].className.replace(" active", "");
-  this.className += " active";
+  var current = document.getElementsByClassName("acti");
+  current[0].className = current[0].className.replace(" acti", "");
+  this.className += " acti";
   });
 }
 function openNav() {
