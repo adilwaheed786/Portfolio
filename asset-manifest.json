@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "//github.com/adilwaheed786/Portfolio/React/portfolioreact/static/css/main.356d5af4.css",
+    "main.js": "//github.com/adilwaheed786/Portfolio/React/portfolioreact/static/js/main.874a74be.js",
+    "static/js/787.df06223f.chunk.js": "//github.com/adilwaheed786/Portfolio/React/portfolioreact/static/js/787.df06223f.chunk.js",
+    "static/media/pro3.png": "//github.com/adilwaheed786/Portfolio/React/portfolioreact/static/media/pro3.683988d0789a7869102f.png",
+    "static/media/pro2.png": "//github.com/adilwaheed786/Portfolio/React/portfolioreact/static/media/pro2.edefbd130374abaace55.png",
+    "static/media/pro1.png": "//github.com/adilwaheed786/Portfolio/React/portfolioreact/static/media/pro1.990d1900640100b6cd06.png",
+    "static/media/profile.jpg": "//github.com/adilwaheed786/Portfolio/React/portfolioreact/static/media/profile.f32818b40dc8cf683a9b.jpg",
+    "static/media/ADIL WAHEED v2.pdf": "//github.com/adilwaheed786/Portfolio/React/portfolioreact/static/media/ADIL WAHEED v2.19ca18991ca6e1528081.pdf",
+    "index.html": "//github.com/adilwaheed786/Portfolio/React/portfolioreact/index.html",
+    "main.356d5af4.css.map": "//github.com/adilwaheed786/Portfolio/React/portfolioreact/static/css/main.356d5af4.css.map",
+    "main.874a74be.js.map": "//github.com/adilwaheed786/Portfolio/React/portfolioreact/static/js/main.874a74be.js.map",
+    "787.df06223f.chunk.js.map": "//github.com/adilwaheed786/Portfolio/React/portfolioreact/static/js/787.df06223f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.356d5af4.css",
+    "static/js/main.874a74be.js"
+  ]
+}
