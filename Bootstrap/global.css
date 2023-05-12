@@ -163,10 +163,10 @@ h1{
 }
 @keyframes changetext {
     
-    0%{
+    /* 0%{
         content: "Designer";
-    }
-    50%{
+    } */
+    0%{
         content: "Freelancer";
     }
     100%{
